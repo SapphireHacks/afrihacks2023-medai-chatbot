@@ -1,0 +1,195 @@
+version: "3.1"
+intents:
+- Abdonominal Pain
+- Abrasions
+- Broken Toe
+- Bruises
+- CPR
+- Chemical Burn
+- Choking
+- Cold
+- Cough
+- Cuts
+- Diarrhea
+- Drowning
+- Eye Injury
+- Fainting
+- Feeling
+- Fever
+- Fracture
+- Frost bite
+- Gastrointestinal problems
+- Head Injury
+- Headache
+- Heat Exhaustion
+- Heat Stroke
+- Insect Bites
+- Nasal Congestion
+- Normal Bleeding
+- Poison
+- Pulled Muscle
+- Rash
+- Rectal bleeding
+- Skin problems
+- Sore Throat
+- Splinter
+- Sprains
+- Strains
+- Sun Burn
+- Teeth
+- Testicle Pain
+- Vertigo
+- Wound
+- animal bite
+- bot_challenges
+- goodbye
+- greet
+- nose bleed
+- seizure
+- snake bite
+- stings
+responses:
+  utter_Abdonominal Pain:
+  - text: '1)Provide clear fluids to sip, such as water, broth, or fruit juice diluted with water. 2)Serve bland foods, such as saltine crackers, plain bread, dry toast, rice, gelatin, or applesauce. 3)Avoid spicy or greasy foods and caffeinated or carbonated drinks until 48 hours after all symptoms have gone away. '
+  utter_greet:
+  - text: Hello, How can I help!
+  utter_goodbye:
+  - text: Thanks, see you soon!
+  utter_Feeling:
+  - text: Hello, Please tell me what you have so I could help you.
+  utter_bot_challenges:
+  - text: I'm an IA chatbot, I'm not a doctor, I'm just helping you to be sure please visit a doctor!
+  utter_Abrasions:
+  - text: Begin with washed hands.Gently clean the area with cool to lukewarm water and mild soap. Remove dirt or other particles from the wound using sterilized tweezers.For a mild scrape that’s not bleeding, leave the wound uncovered.If the wound is bleeding, use a clean cloth or bandage, and apply gentle pressure to the area to stop any bleeding.Cover a wound that bled with a thin layer of topical antibiotic ointment, like Bacitracin, or a sterile moisture barrier ointment, like Aquaphor. Cover it with a clean bandage or gauze. Gently clean the wound and change the ointment and bandage once per day.Watch the area for signs of infection, like pain or redness and swelling. See your doctor if you suspect infection.
+  utter_Broken Toe:
+  - text: 1)To help decrease pain and swelling in a broken toe, elevate the foot, ice the injury, and stay off the foot. 2)Depending on the severity of the fracture, the toe may need to be put back into place (reduced), and some compound toe fractures may require surgery.3) Most broken toes heal without complications in six weeks.
+  utter_Bruises:
+  - text: '1)Ice the bruise with an ice pack wrapped in a towel. 2)Leave it in place for 10 to 20 minutes. 3)Repeat several times a day for a day or two as needed. 4)Compress the bruised area if it is swelling, using an elastic bandage. '
+  utter_CPR:
+  - text: 1)For an adult or child, place the heel of one hand on the center of the chest at the nipple line. You can also push with one hand on top of the other. For an infant, place two fingers on the breastbone. 2)For an adult or child, press down at least 2 inches. Make sure not to press on ribs. For an infant, press down about 1 and 1/2 inches. Make sure not to press on the end of the breastbone. 3)Do chest compressions only, at the rate of 100-120 per minute or more. Let the chest rise completely between pushes. 4)Check to see if the person has started breathing.
+  utter_Chemical Burn:
+  - text: "1) rinsed with water · Flush the area for at least 20 minutes. · As you flush the area, take off any clothing or jewellery that has the chemical on it ,2) Don't use a strong stream of water, if possible., 3)Don't try to neutralize the burn with acid or alkali. This could cause a chemical reaction that worsens the burn, 4) Don't put antibiotic ointment on the burn. "
+  utter_Choking:
+  - text: 1)Encourage them to keep coughing to try to clear the blockage. 2)Ask them to try to spit out the object if it's in their mouth. 3)If coughing doesn't work, start back blows and Abdonominal thrusts
+  utter_Cold:
+  - text: 1)Keeping hydrated is absolutely vital to help 'flush' out the cold, as well as to break down congestion and keep your throat lubricated. 2)Vitamin C is extremely helpful when fighting infection, so at the first sign of a cold be sure to increase your intake by eating plenty of berries, citrus fruits, papayas, broccoli and red peppers which will help keep you protected. 3)When it comes to combating a cold,Vitamin D is essential in helping to regulate immune response.
+  utter_Cough:
+  - text: 1) Honey:- Use honey to treat a cough, mix 2 teaspoons (tsp) with warm water or an herbal tea. Drink this mixture once or twice a day. Do not give honey to children under 1 year of age. 2) Ginger:- Brew up a soothing ginger tea by adding 20–40 grams (g) of fresh ginger slices to a cup of hot water. Allow to steep for a few minutes before drinking. Add honey or lemon juice to improve the taste and further soothe a cough. 3) Fluids:- Staying hydrated is vital for those with a cough or cold. Research indicates that drinking liquids at room temperature can alleviate a cough, runny nose, and sneezing.
+  utter_Cuts:
+  - text: Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1-2minutes until bleeding stops. Apply Petroleum Jelly to make sure that the wound is moist for quick healing. Finally cover the cut with a sterile bandage. Pain relievers such as acetaminophen can be applied.
+  utter_Diarrhea:
+  - text: 1)Hydrating the body is essential for recovering from diarrhea.This causes the body to lose electrolytes such as sodium and chloride. 2)It is highly recommended to avoid dairy products, as they may worsen diarrhea in some people. 3)However, if diarrhea lasts for more than 2 days, seek medical advice to avoid complications.
+  utter_Drowning:
+  - text: 1)Place your ear next to the person's mouth and nose. Do you feel air on your cheek? 2)Look to see if the person's chest is moving.If the Person is Not Breathing, Check Pulse. 3)Check the person's pulse for 10 seconds.If There is No Pulse, Start CPR.
+  utter_Eye Injury:
+  - text: '1) DO NOT rub the eye, 2)Blink several times and allow tears to flush out the particle, 3) Lift the upper eyelid over the lashes of your lower lid to let the eyelashes try to brush the particle out., 4) Use eyewash, saline solution or running tap water to flush the eye out '
+  utter_Fainting:
+  - text: "1) Lie down or sit down. To reduce the chance of fainting again, don't get up too quickly, 2) Place your head between your knees if you sit down, 3)Position the person on his or her back. If there are no injuries and the person is breathing, raise the person's legs above heart level — about 12 inches (30 centimeters) — if possible. Loosen belts, collars or other constrictive clothing. "
+  utter_Fever:
+  - text: 'To treat a fever at home: 1)Drink plenty of fluids to stay hydrated. 2)Dress in lightweight clothing. 3)Use a light blanket if you feel chilled, until the chills end. 4)Take acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others). 5) Get medical help if the fever lasts more than five days in a row.'
+  utter_Fracture:
+  - text: 1)Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing. 2)Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in. If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort. 3)Apply ice packs to limit swelling and help relieve pain. Don't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material. 4)Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs.
+  utter_Frost bite:
+  - text: "1)Get out of the cold. Once you're in a warm space, remove wet clothes and wrap up in a warm blanket. 2) Gently rewarm frostbitten areas. Soak frostbitten fingers, toes or other extremities in warm water — 105 to 110 F (about 40 to 43 C). If a thermometer isn't available, test the water by placing an uninjured hand or elbow in it — it should feel very warm, not hot. Soak for 20 to 30 minutes or until the skin becomes its normal color or loses its numbness. For the face or ears, apply a warm, wet washcloth. "
+  utter_Gastrointestinal problems:
+  - text: 1) Replenish body fluids 2)Do not take antidiarrheal drugs or laxatives or pain medication, unless specified by a medical professional.3)Taking antacids may help, per recommendation of a healthcare professional. 4)If prone to frequent heartburns, seek medical help. 5)Taking meals that are not spicy regularly, can relieve ulcer pains. 6)Seek medical help, if conditions persist or continue to worsen
+  utter_Head Injury:
+  - text: "1) Apply firm pressure to the wound with sterile gauze or a clean cloth. But don't apply direct pressure to the wound if you suspect a skull fracture. "
+  utter_Headache:
+  - text: Give ibuprofen (Advil, Motrin), aspirin, or acetaminophen (Tylenol) for pain. Avoid ibuprofen and other NSAIDs if the person has heart failure or kidney failure. Do not give aspirin to a child under age 18.
+  utter_Heat Exhaustion:
+  - text: '1)Move the person out of the heat and into a shady or air-conditioned place. Lay the person down and elevate the legs and feet slightly. Remove tight or heavy clothing. Have the person drink cool water or other nonalcoholic beverage without caffeine '
+  utter_Heat Stroke:
+  - text: "1)Cool the person's entire body by sponging or spraying cold water, and fan the person to help lower the person's body temperature. Watch for signs of rapidly progressing heatstroke, such as seizure, unconsciousness for longer than a few seconds, and moderate to severe difficulty breathing. "
+  utter_Insect Bites:
+  - text: '1) Wash the affected area with soap and water. Apply a cold compress (such as a flannel or cloth cooled with cold water) or an ice pack to any swelling for at least 10 minutes. Raise or elevate the affected area if possible, as this can help reduce swelling. '
+  utter_Nasal Congestion:
+  - text: 'When you’re stuffed up, focus on keeping your nasal passages and sinuses moist. To keep your nasal passages moist, you can: 1)Use a humidifier or vaporizer. 2)Drink lots of fluids. This will thin out your mucus, which could help prevent blocked sinuses. 3)Place a warm, wet towel on your face. It may relieve discomfort and open your nasal passages.'
+  utter_Normal Bleeding:
+  - text: '1) First aid actions to manage external bleeding include applying direct pressure to the wound, maintaining the pressure using pads and bandages, and, raising the injured limb above the level of the heart if possible. '
+  utter_Poison:
+  - text: '1) Get to fresh air right away. Call the toll-free Poison Help line (1-800-222-1222), which connects you to your local poison center, 2) Take off any clothing the poison touched. Rinse skin with running water for 15 to 20 minutes. Call the toll-free Poison Help line (1-800-222-1222), which connects you to your local poison center.,3) If the person swallowed the wrong medicine or too much medicine: Call Poison Help (1-800-222-1222), which connects you to your local poison center.,4) Every poisoning is different. '
+  utter_Pulled Muscle:
+  - text: '1) Apply ice for 10 to 15 minutes every 1 hour for the first day and every 3 to 4 hours after that. Use ice for the first 3 days. After 3 days, either heat or ice may be helpful if you still have pain. Rest the pulled muscle for at least a day. '
+  utter_Rash:
+  - text: 1)Olive oil helps in healing and promotes skin renewal given it is packed with vitamin E and antioxidants. It also soothes the skin and reduces itching. 2)Baking soda is useful in drying skin rashes as also in relieving itching and inflammation. 3)Aloe Vera,Thanks to its antibacterial, antifungal, anti-inflammatory and emollient properties, aloe vera is excellent for treating a number of skin ailments including rashes as also soothing the skin.
+  utter_Rectal bleeding:
+  - text: '1) For minimal bleeding due to hemorrhoids or rectal fissures, physicians will usually direct home treatment with lots of water, ice packs and possibly over the counter ointments or suppositories to create movement in the bowels or to soften the stool. Emergency treatment might include an IV in the case of dehydration. '
+  utter_Skin problems:
+  - text: 1)Hydrocortisone cream. 2)Ointments like calamine lotion. 3)Antihistamines. 4)Cold compresses. 5)Oatmeal baths. 6)Talk to your doctor about what's best for your specific rash.
+  utter_Sore Throat:
+  - text: 1) Make sure you get plenty of rest and drink a lot of fluids. 2)Inhale steam,Run hot water in a sink.Drape a towel over you to trap the steam, and have the person lean over the sink with the water running. Tell him to breathe deeply through his mouth and nose for 5 to 10 minutes. Repeat several times a day. 3)Have him sip chicken broth or warm tea with honey. Don’t give honey to a child under 12 months of age.
+  utter_Splinter:
+  - text: 1. SOAK IT IN EPSOM SALTS. Dissolve a cup of the salts into a warm bath and soak whatever part of the body has the splinter. Failing that, you can also put some of the salts onto a bandage pad and leave it covered for a day; this will eventually help bring the splinter to the surface. 2. VINEGAR OR OIL. Another simple way to draw out that stubborn splinter is to soak the affected area in oil (olive or corn) or white vinegar. Just pour some in a bowl and soak the area for around 20 to 30 minutes,
+  utter_Sprains:
+  - text: Use an ice pack or ice slush bath immediately for 15 to 20 minutes and repeat every two to three hours while you're awake. To help stop swelling, compress the ankle with an elastic bandage until the swelling stops. In most cases, pain relievers — such as ibuprofen (Advil, Motrin IB, others) or naproxen sodium (Aleve, others) or acetaminophen (Tylenol, others) are enough to manage the pain of a sprained ankle.
+  utter_Strains:
+  - text: Rest,Ice,Compression and Elevation can be used to cure strains. Avoid using your muscle for a few days, especially if movement causes an increase in pain and also Apply ice immediately after injuring your muscle. This will minimize swelling. Don’t put ice directly on your skin. Use an ice pack or wrap ice in a towel. To reduce swelling, wrap the affected area with an elastic bandage until swelling comes down.
+  utter_Sun Burn:
+  - text: '1) Cool the skin, 2) Drink water to prevent dehydration., 3) Take a pain reliever such as ibuprofen (Advil, Motrin IB, others) to help with the discomfort and swelling of sunburn. '
+  utter_Teeth:
+  - text: "1) lick the tooth clean if it's dirty, or rinse it in water. put it back into position (adult teeth only); never try to re-insert a baby tooth (see below) bite on a handkerchief to hold the tooth in place. go to see a dentist as an emergency "
+  utter_Testicle Pain:
+  - text: '1) For pain, take over-the-counter medication such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin). For swelling, apply an ice pack to the scrotum. '
+  utter_Vertigo:
+  - text: 1) Relieve or Prevent Dizziness. Have the person lie down and rest, 2) Keep the Person Safe. Help the person avoid falls, 3) Call a Health Care Provider. Any new signs and symptoms of vertigo should be checked by a health care provider.
+  utter_Wound:
+  - text: 1)Rinse the cut or wound with water and apply pressure with sterile gauze, a bandage, or a clean cloth. 2)If blood soaks through the bandage, place another bandage on top of the first and keep applying pressure. 3)Raise the injured body part to slow bleeding. 4)When bleeding stops, cover the wound with a new, clean bandage.
+  utter_animal bite:
+  - text: 1)Wash the wound with soap and warm water. 2)Gently press a clean cloth over the wound to stop the flow of blood. 3)Apply an antibacterial ointment to the wound. 4)Cover with a sterile bandage. 5)Watch for signs of infection. 6)Seek help if you suspect infection or possible exposure to rabies, or if the wound is severe.
+  utter_nose bleed:
+  - text: '1) Wash the affected area with soap and water. Apply a cold compress (such as a flannel or cloth cooled with cold water) or an ice pack to any swelling for at least 10 minutes. Raise or elevate the affected area if possible, as this can help reduce swelling '
+  utter_seizure:
+  - text: '1) Stay calm and remain with the person, 2) If they have food or fluid in their mouth, roll them onto their side immediately, 3) Place something soft under their head and loosen any tight clothing. '
+  utter_snake bite:
+  - text: 'While waiting for medical help: 1)Move the person beyond striking distance of the snake. 2)Have the person lie down with wound below the heart. 3)Keep the person calm and at rest, remaining as still as possible to keep venom from spreading. 4)Cover the wound with loose, sterile bandage. 5)Remove any jewelry from the area that was bitten. 6)Remove shoes if the leg or foot was bitten.'
+  utter_stings:
+  - text: Remove any stingers immediately. Some experts recommend scraping out the stinger with a credit card. Applying ice to the site may provide some mild relief. Apply ice for 20 minutes once every hour as needed. Wrap the ice in a towel or keep a cloth between the ice and skin to keep from freezing the skin. Taking an antihistamine such as diphenhydramine (Benadryl) or a nonsedating one such as loratadine (Claritin) will help with itching and swelling. Take acetaminophen (Tylenol) or ibuprofen (Motrin)for pain relief as needed. Wash the sting site with soap and water. Placing hydrocortisone cream on the sting can help relieve redness, itching, and swelling.
+actions:
+- utter_Cuts
+- utter_Abrasions
+- utter_stings
+- utter_Splinter
+- utter_Sprains
+- utter_Strains
+- utter_Fever
+- utter_Nasal Congestion
+- utter_Cough
+- utter_Sore Throat
+- utter_Gastrointestinal problems
+- utter_Skin problems
+- utter_Abdonominal Pain
+- utter_Bruises
+- utter_Broken Toe
+- utter_Choking
+- utter_Wound
+- utter_Diarrhea
+- utter_Frost bite
+- utter_Heat Exhaustion
+- utter_Heat Stroke
+- utter_Insect Bites
+- utter_nose bleed
+- utter_Pulled Muscle
+- utter_Rectal bleeding
+- utter_Sun Burn
+- utter_Testicle Pain
+- utter_Vertigo
+- utter_Normal Bleeding
+- utter_Eye Injury
+- utter_Chemical Burn
+- utter_Poison
+- utter_Teeth
+- utter_seizure
+- utter_Head Injury
+- utter_Fainting
+- utter_Headache
+- utter_Cold
+- utter_Rash
+- utter_snake bite
+- utter_animal bite
+- utter_Drowning
+- utter_CPR
+- utter_Fracture
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,193 @@
+stories:
+- steps:
+  - intent: Cuts
+  - action: utter_Cuts
+  story: story_Cuts
+- steps:
+  - intent: greet
+  - action: utter_greet
+  story: story_greet
+- steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  story: story_goodbye
+- steps:
+  - intent: Feeling
+  - action: utter_Feeling
+  story: story_Feeling
+- steps:
+  - intent: bot_challenges
+  - action: utter_bot_challenges
+  story: story_bot_challenges
+- steps:
+  - intent: Abrasions
+  - action: utter_Abrasions
+  story: story_Abrasions
+- steps:
+  - intent: stings
+  - action: utter_stings
+  story: story_stings
+- steps:
+  - intent: Splinter
+  - action: utter_Splinter
+  story: story_Splinter
+- steps:
+  - intent: Sprains
+  - action: utter_Sprains
+  story: story_Sprains
+- steps:
+  - intent: Strains
+  - action: utter_Strains
+  story: story_Strains
+- steps:
+  - intent: Fever
+  - action: utter_Fever
+  story: story_Fever
+- steps:
+  - intent: Nasal Congestion
+  - action: utter_Nasal Congestion
+  story: story_Nasal_Congestion
+- steps:
+  - intent: Cough
+  - action: utter_Cough
+  story: story_Cough
+- steps:
+  - intent: Sore Throat
+  - action: utter_Sore Throat
+  story: story_Sore_Throat
+- steps:
+  - intent: Gastrointestinal problems
+  - action: utter_Gastrointestinal problems
+  story: story_Gastrointestinal_problems
+- steps:
+  - intent: Skin problems
+  - action: utter_Skin problems
+  story: story_Skin_problems
+- steps:
+  - intent: Abdonominal Pain
+  - action: utter_Abdonominal Pain
+  story: story_Abdonominal_Pain
+- steps:
+  - intent: Bruises
+  - action: utter_Bruises
+  story: story_Bruises
+- steps:
+  - intent: Broken Toe
+  - action: utter_Broken Toe
+  story: story_Broken_Toe
+- steps:
+  - intent: Choking
+  - action: utter_Choking
+  story: story_Choking
+- steps:
+  - intent: Wound
+  - action: utter_Wound
+  story: story_Wound
+- steps:
+  - intent: Diarrhea
+  - action: utter_Diarrhea
+  story: story_Diarrhea
+- steps:
+  - intent: Frost bite
+  - action: utter_Frost bite
+  story: story_Frost_bite
+- steps:
+  - intent: Heat Exhaustion
+  - action: utter_Heat Exhaustion
+  story: story_Heat_Exhaustion
+- steps:
+  - intent: Heat Stroke
+  - action: utter_Heat Stroke
+  story: story_Heat_Stroke
+- steps:
+  - intent: Insect Bites
+  - action: utter_Insect Bites
+  story: story_Insect_Bites
+- steps:
+  - intent: nose bleed
+  - action: utter_nose bleed
+  story: story_nose_bleed
+- steps:
+  - intent: Pulled Muscle
+  - action: utter_Pulled Muscle
+  story: story_Pulled_Muscle
+- steps:
+  - intent: Rectal bleeding
+  - action: utter_Rectal bleeding
+  story: story_Rectal bleeding
+- steps:
+  - intent: Sun Burn
+  - action: utter_Sun Burn
+  story: story_Sun Burn
+- steps:
+  - intent: Testicle Pain
+  - action: utter_Testicle Pain
+  story: story_Testicle Pain
+- steps:
+  - intent: Vertigo
+  - action: utter_Vertigo
+  story: story_Vertigo
+- steps:
+  - intent: Normal Bleeding
+  - action: utter_Normal Bleeding
+  story: story_Normal_Bleeding
+- steps:
+  - intent: Eye Injury
+  - action: utter_Eye Injury
+  story: story_Eye_Injury
+- steps:
+  - intent: Chemical Burn
+  - action: utter_Chemical Burn
+  story: story_Chemical_Burn
+- steps:
+  - intent: Poison
+  - action: utter_Poison
+  story: story_Poison
+- steps:
+  - intent: Teeth
+  - action: utter_Teeth
+  story: story_Teeth
+- steps:
+  - intent: seizure
+  - action: utter_seizure
+  story: story_seizure
+- steps:
+  - intent: Head Injury
+  - action: utter_Head Injury
+  story: story_Head_Injury
+- steps:
+  - intent: Fainting
+  - action: utter_Fainting
+  story: story_Fainting
+- steps:
+  - intent: Headache
+  - action: utter_Headache
+  story: story_Headache
+- steps:
+  - intent: Cold
+  - action: utter_Cold
+  story: story_Cold
+- steps:
+  - intent: Rash
+  - action: utter_Rash
+  story: story_Rash
+- steps:
+  - intent: snake bite
+  - action: utter_snake bite
+  story: story_snake_bite
+- steps:
+  - intent: animal bite
+  - action: utter_animal bite
+  story: story_animal_bite
+- steps:
+  - intent: Drowning
+  - action: utter_Drowning
+  story: story_Drowning
+- steps:
+  - intent: CPR
+  - action: utter_CPR
+  story: story_CPR
+- steps:
+  - intent: Fracture
+  - action: utter_Fracture
+  story: story_Fracture

@@ -1,0 +1,27 @@
+# This file contains the different endpoints your bot can use.
+# Server where the models are pulled from.
+# https://rasa.com/docs/rasa/model-storage#fetching-models-from-a-server
+#models:
+#  url: http://my-server.com/models/default_core@latest
+#  wait_time_between_pulls:  10   # [optional](default: 100)
+# Server which runs your custom actions.
+# https://rasa.com/docs/rasa/custom-actions
+action_endpoint:
+  url: "http://localhost:3000/webhook"
+# Tracker store which is used to store the conversations.
+#By default the conversations are stored in memory:
+#https://rasa.com/docs/rasa/tracker-stores
+tracker_store:
+  type: mongod
+  url: "mongodb+srv://sapphirehacks:xhsTK2qS3re5i5Ms@cluster0.raef7bp.mongodb.net/test?retryWrites=true&w=majority"
+  db: "test"  # Remplacez par le nom de votre base de données dans MongoDB Atlas
+  username: "sapphirehacks"
+  password: "xhsTK2qS3re5i5Ms"
+  auth_source: "admin"
+#event_broker:
+  #url: redis://localhost:6379
+event_broker:
+  type: SQL
+  dialect: sqlite
+  db: events.db
+
